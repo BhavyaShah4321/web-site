@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex</title>
+        <style>
+                *
+                {
+                    padding: 3px;
+                    margin: 3px;
+                    box-sizing: content-box;
+                }
+             /*   div
+                {
+                    display: ;
+                }*/
+                .contain
+                {   
+                    background-color: aqua;
+                    display: flex;
+                    border:5px solid red;
+                    border-radius: 4px;
+                    height: 500px;
+                    flex-direction: row-reverse;
+                    /*flex-direction: column-reverse;*/
+                    /*flex-direction:column;*/
+                    /*flex-direction: row;*/
+                    /*align-content: center; */
+                    align-items: center;
+                    flex-wrap:wrap;
+                    gap: 10px;
+                    flex-basis: 55px;        
+                    justify-content:flex-start;
+                    /*align-content:flex-start ;*/
+                }
+                #box-1
+                {
+                   /* flex-grow: 2; */
+                    order: 2 ;
+                    /*align-self: center;*/
+                    
+                }
+                #box-2
+                {
+                    order: 3;
+                   /* align-self: flex-end;*/
+                }
+                .box
+                {
+                    background-color: darkgrey;
+                    border: 3px solid blue;
+                    /*flex: contents;*/
+                    border-radius: 1px;
+                    height:35px;
+                    width: 65px;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+                <a href="#" target="_blank"><div id="box-1" class="box">Menu</div></a>
+                <a href="#" target="_blank"><div id="box-2" class="box">Servecise</div></a>
+                <a href="#" target="_blank"><div id="box-3" class="box">Produc</div></a>
+                <a href="#" target="_blank"><div id="box-4" class="box">About us</div></a>
+            </div>
+    </body>
+</html>
