@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size unit</title>
+    <style>
+        html
+        {
+            font-size: 25px;
+     
+        }
+        .container
+        {
+            border: 5px solid red;
+            border-radius: 4px;
+            height: 96vh;
+            width:98vw;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            flex-shrink:10px;
+            gap: 2rem;
+            justify-content: center;
+            align-content: center;
+        }
+        .box
+        {   
+            font-size: 2rem;
+            border: 2px solid blue;
+            box-sizing: content-box;
+            align-items: center;
+            flex-shrink: 1;
+        }
+
+        @media only screen and(min-width:400px)
+        {
+          .container
+          {
+            flex-direction: column;
+            flex-shrink: 2;
+          }
+        }
+
+    </style>  
+</head>
+<body>
+    <div class="container">        
+            <div class="box" id="box-1">box-1</div>
+            <div class="box" id="box-2">box-2</div>
+            <div class="box" id="box-3">box-3</div>
+            <div class="box" id="box-4">box-4</div>
+   </div>
+
+</body>
+</html>
