@@ -1,0 +1,215 @@
+html
+{
+    background-image: url(Background.jpg);
+    overflow: hidden;
+}
+#container
+{
+    /* background-color: aqua;  */
+    color: black;
+    display:inline-block;
+    width: 99vw;
+    backdrop-filter: blur(10px);
+    /* margin-top: 0%; */
+}
+.logo
+{
+    background-image: url(text-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 1px;
+}
+.logo:hover
+{
+    font-size: 45px;
+}
+.heading
+{
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    font-style: bold;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center i;
+    float: left;
+    backdrop-filter: blur(15px);
+    /* position:absolute; */
+}
+.box
+{
+    font-style: italic;
+    margin-top:29px ;
+    font-family:monospace;
+    list-style-type: none;
+    /* flex-direction: row; */
+    justify-content:center;
+    float: left;
+    /* gap: 2rem; */
+    margin-right:40px;
+    color: blue;
+    /* padding-top:40px ; */
+    align-items: center;
+}
+.a
+{
+    color: blue;
+}
+.a:hover
+{
+    color: orange;
+}
+.box:hover
+{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    /* background-color: black; */
+    /* border-radius: 15px; */
+    /* padding:6px; */
+
+}
+#box-1
+{
+    margin-left: 250px;
+    margin-bottom: 35px;
+}
+.space
+{
+    background-color: white;
+    color: white;
+}
+.frm
+{
+    border: 2px solid blue;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 6px;
+    height: 350px; 
+    width: 270px;
+    padding: 20px;
+    margin-left:72vw ;
+    margin-top: 60px;
+
+    transition-property:all ;
+    transition-duration: 2s;
+    transform-origin: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    transition: transform 1s;
+}
+.frm:hover
+{
+    transform: rotate(360deg);
+}
+.frm_h1
+{
+    background-color: blueviolet;
+    
+    border-radius: 9px;
+    text-align: center;
+}
+.frm_h1:hover
+{
+    color: orange;
+}
+/* label
+{
+    
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+#rest
+{
+    /* padding-top: 100px; */
+    /* background-color: aquamarine; */
+    height: 85vh;
+    backdrop-filter: blur(12px);
+}  
+.detail
+{
+    border-radius: 10px;
+    margin-left: 28px;
+    height: 29px;
+    width:200px;
+    /* margin-top: 10px; */
+}
+.detail:hover
+{
+    /* font-size: 25px; */
+    color: red;
+    background-color:blanchedalmond;
+}
+.L_btn
+{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+.L_btn:hover
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 255, 234);
+}
+#sign_up:hover
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 255, 234);
+}
+.Sign_up
+{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+}
+.sign_up
+{
+    font-size: 25px;
+    text-align: center;
+    /* margin-top: 35px; */
+}
+.About
+{
+    color: red;
+    font-size: 50px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+.About:hover
+{
+    color: orange;
+}
+.join
+{
+    font-size: 20px;
+    text-decoration:solid ;
+    font-style: italic;
+}
+.join:hover
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 251, 255);
+}
